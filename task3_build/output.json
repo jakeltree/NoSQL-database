@@ -1,0 +1,32 @@
+[
+    {
+        "Author": [
+            "Marie Melendez",
+            "Agnes Larsen",
+            "Ollie Greene",
+            "Ewing Rivas",
+            "Mollie Herring",
+            "Olive Zamora",
+            "Knowles Frazier"
+        ],
+        "Name": "laboris",
+        "Publisher": "et",
+        "Rating": 95,
+        "Year": 1966
+    },
+    {
+        "Author": [
+            "Santos Casey",
+            "Henderson Owens",
+            "Gillespie Cantrell",
+            "Robbins Michael",
+            "Dawn Bright",
+            "Casandra Gibson",
+            "Tracie Nolan"
+        ],
+        "Name": "et",
+        "Publisher": "aliquip",
+        "Rating": 5,
+        "Year": 1977
+    }
+]

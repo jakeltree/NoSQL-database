@@ -117,56 +117,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named task_server
+# Target rules for targets named task
 
 # Build rule for target.
-task_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task_server
-.PHONY : task_server
+task: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task
+.PHONY : task
 
 # fast build rule for target.
-task_server/fast:
-	$(MAKE) $(MAKESILENT) -f task3_server/CMakeFiles/task_server.dir/build.make task3_server/CMakeFiles/task_server.dir/build
-.PHONY : task_server/fast
+task/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/build
+.PHONY : task/fast
 
 #=============================================================================
-# Target rules for targets named main_server
+# Target rules for targets named main
 
 # Build rule for target.
-main_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_server
-.PHONY : main_server
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-main_server/fast:
-	$(MAKE) $(MAKESILENT) -f task3_server/CMakeFiles/main_server.dir/build.make task3_server/CMakeFiles/main_server.dir/build
-.PHONY : main_server/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-#=============================================================================
-# Target rules for targets named task_client
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
-# Build rule for target.
-task_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task_client
-.PHONY : task_client
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-# fast build rule for target.
-task_client/fast:
-	$(MAKE) $(MAKESILENT) -f task3_client/CMakeFiles/task_client.dir/build.make task3_client/CMakeFiles/task_client.dir/build
-.PHONY : task_client/fast
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
-#=============================================================================
-# Target rules for targets named main_client
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-# Build rule for target.
-main_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_client
-.PHONY : main_client
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
-# fast build rule for target.
-main_client/fast:
-	$(MAKE) $(MAKESILENT) -f task3_client/CMakeFiles/main_client.dir/build.make task3_client/CMakeFiles/main_client.dir/build
-.PHONY : main_client/fast
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/task3.o: src/task3.cpp.o
+.PHONY : src/task3.o
+
+# target to build an object file
+src/task3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/task3.cpp.o
+.PHONY : src/task3.cpp.o
+
+src/task3.i: src/task3.cpp.i
+.PHONY : src/task3.i
+
+# target to preprocess a source file
+src/task3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/task3.cpp.i
+.PHONY : src/task3.cpp.i
+
+src/task3.s: src/task3.cpp.s
+.PHONY : src/task3.s
+
+# target to generate assembly for a file
+src/task3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task.dir/build.make CMakeFiles/task.dir/src/task3.cpp.s
+.PHONY : src/task3.cpp.s
 
 # Help Target
 help:
@@ -176,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main_client"
-	@echo "... main_server"
-	@echo "... task_client"
-	@echo "... task_server"
+	@echo "... main"
+	@echo "... task"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/task3.o"
+	@echo "... src/task3.i"
+	@echo "... src/task3.s"
 .PHONY : help
 
 
