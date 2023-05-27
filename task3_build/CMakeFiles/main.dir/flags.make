@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/jakeltree/Documents/School/task3/ext
+CXX_INCLUDES = -I/home/jakeltree/Documents/School/task3/inc -I/home/jakeltree/Documents/School/task3/ext
 
 CXX_FLAGS = 
 
