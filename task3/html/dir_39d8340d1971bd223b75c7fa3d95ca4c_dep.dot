@@ -1,0 +1,12 @@
+digraph "task3_client" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_39d8340d1971bd223b75c7fa3d95ca4c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_39d8340d1971bd223b75c7fa3d95ca4c.html"];
+    dir_39d8340d1971bd223b75c7fa3d95ca4c [shape=plaintext label="task3_client"];
+    dir_02b3b004a85a67435166fd4dc1025906 [shape=box label="inc" color="black" fillcolor="white" style="filled" URL="dir_02b3b004a85a67435166fd4dc1025906.html"];
+    dir_f1e0d02cbfa44966fa84e9e47747cf04 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_f1e0d02cbfa44966fa84e9e47747cf04.html"];
+  }
+  dir_f1e0d02cbfa44966fa84e9e47747cf04->dir_02b3b004a85a67435166fd4dc1025906 [headlabel="2", labeldistance=1.5 headhref="dir_000003_000002.html"];
+}

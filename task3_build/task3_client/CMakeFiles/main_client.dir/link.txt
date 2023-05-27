@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/main_client.dir/src/main_client.cpp.o -o main_client  libtask_client.a 

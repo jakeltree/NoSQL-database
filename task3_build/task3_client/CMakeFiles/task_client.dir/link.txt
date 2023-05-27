@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtask_client.a CMakeFiles/task_client.dir/src/task3_client.cpp.o
+/usr/bin/ranlib libtask_client.a

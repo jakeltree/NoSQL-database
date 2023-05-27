@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['delete_19',['Delete',['../classLiterature.html#a141ea247483505c2be5d53ed53c20c0c',1,'Literature']]]
+];

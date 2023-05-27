@@ -1,0 +1,10 @@
+/home/jakeltree/Documents/School/task3_build/CMakeFiles/edit_cache.dir
+/home/jakeltree/Documents/School/task3_build/CMakeFiles/rebuild_cache.dir
+/home/jakeltree/Documents/School/task3_build/task3_server/CMakeFiles/task_server.dir
+/home/jakeltree/Documents/School/task3_build/task3_server/CMakeFiles/main_server.dir
+/home/jakeltree/Documents/School/task3_build/task3_server/CMakeFiles/edit_cache.dir
+/home/jakeltree/Documents/School/task3_build/task3_server/CMakeFiles/rebuild_cache.dir
+/home/jakeltree/Documents/School/task3_build/task3_client/CMakeFiles/task_client.dir
+/home/jakeltree/Documents/School/task3_build/task3_client/CMakeFiles/main_client.dir
+/home/jakeltree/Documents/School/task3_build/task3_client/CMakeFiles/edit_cache.dir
+/home/jakeltree/Documents/School/task3_build/task3_client/CMakeFiles/rebuild_cache.dir
