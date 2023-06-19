@@ -20,7 +20,7 @@ cd task3_server
 ```
 Клиент
 ```
-cd task3_clien
+cd task3_client
 ./main_client
 ```
 
