@@ -11,11 +11,11 @@ cmake ../task3
 ```
 
 ## Запустить:
-### Сервер 
+Сервер 
 ```cd task3_server
 ./main_server
 ```
-### Клиент
+Клиент
 ```cd task3_clien
 ./main_client
 ```
