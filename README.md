@@ -5,12 +5,13 @@
 [Папка с документацией](https://github.com/jakeltree/task3/tree/master/task3/html)
 Нужно открыть файл index.html
 
-## Собрать проект:
+## Запуск проекта 
+### Собрать проект
 ```cd task3_build
 cmake ../task3
 ```
 
-## Запустить:
+### Запустить проект
 Сервер 
 ```cd task3_server
 ./main_server
