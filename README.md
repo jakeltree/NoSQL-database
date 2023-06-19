@@ -7,17 +7,20 @@
 
 ## Запуск проекта 
 ### Собрать проект
-```cd task3_build
+```
+cd task3_build
 cmake ../task3
 ```
 
 ### Запустить проект
 Сервер 
-```cd task3_server
+```
+cd task3_server
 ./main_server
 ```
 Клиент
-```cd task3_clien
+```
+cd task3_clien
 ./main_client
 ```
 
