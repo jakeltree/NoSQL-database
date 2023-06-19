@@ -12,10 +12,12 @@ cmake ../task3```
 ## Запустить:
 ### Сервер 
 ```cd task3_server
-./main_server```
+./main_server
+```
 ### Клиент
 ```cd task3_clien
-./main_client```
+./main_client
+```
 
 ##
 Этапы работы над проектом
