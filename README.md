@@ -2,8 +2,6 @@
 
 JSON база данных на сервере для Unix-подобных систем и консольный клиент для доступа к нему посредством кастомных HTTP запросов.
 
-Зависимости: [httplib](https://github.com/yhirose/cpp-httplib), [nlohmann JSON](https://github.com/nlohmann/json).
-
 ## Документация Doxygen
 [Папка с документацией](https://github.com/jakeltree/task3/tree/master/task3/html)
 
