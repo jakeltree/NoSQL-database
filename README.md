@@ -1,12 +1,12 @@
 # task3
-Фуллстэк проект для предмета "Работа на ЭВМ" мехмата МГУ 2023.
 
-Создается класс для хранения базы данных в формате JSON и используется клиентно/серверная архитектура для работы с ним. Использовались только стандартные библиотеки С++, [Httplib](https://github.com/yhirose/cpp-httplib), и [Nlohmann JSON](https://github.com/nlohmann/json).
+JSON база данных и клиентно/серверная архитектура для работы с ним поверх HTTP запросов. 
+Зависимости: [Httplib](https://github.com/yhirose/cpp-httplib), [Nlohmann JSON](https://github.com/nlohmann/json).
 
 ## Документация Doxygen
 [Папка с документацией](https://github.com/jakeltree/task3/tree/master/task3/html)
 
-Нужно открыть файл index.html
+Открыть index.html.
 
 ## Запуск проекта 
 ### Собрать проект
@@ -26,10 +26,3 @@ cd task3_server
 cd task3_client
 ./main_client
 ```
-
-##
-Этапы работы над проектом
-- 1 этап. Реализация ввода и распечатки JSON-данных.
-- 2 этап. Реализация разных функции для работы c JSON-данными.
-- 3 этап. Реализация клиенто-серверной архитектуры при помощи HTTPLib.
-- 4 этап. CMakeList для сборки проекта и документация в doxygen. 
