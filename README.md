@@ -1,6 +1,6 @@
 # task3
 
-JSON база данных и клиентно/серверная архитектура для работы с ним поверх HTTP запросов. 
+JSON база данных на сервере под Unix системой и консольный клиент для доступа к нему посредством кастомных HTTP запросов.
 Зависимости: [Httplib](https://github.com/yhirose/cpp-httplib), [Nlohmann JSON](https://github.com/nlohmann/json).
 
 ## Документация Doxygen
