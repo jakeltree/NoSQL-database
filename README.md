@@ -1,6 +1,6 @@
 # task3
 
-JSON база данных на сервере под Unix системой и консольный клиент для доступа к нему посредством кастомных HTTP запросов.
+JSON база данных на сервере на Unix-подобной системе и консольный клиент для доступа к нему посредством кастомных HTTP запросов.
 
 Зависимости: [Httplib](https://github.com/yhirose/cpp-httplib), [Nlohmann JSON](https://github.com/nlohmann/json).
 
